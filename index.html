@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title> Frontend Mentor | [Challenge Name Here]</title>
+
+  
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <!-- Social media -->
+  <section class="social-media">
+
+  <header class="social-media__header">
+    <div class="title-wrapper">
+    <h1 id="dark-font" class="title">Social Media Dashboard</h1>
+    <p id="dark-font" class="subtitle">Total Followers: 23,004</p>
+  </div>
+      <div class="dark-mode">
+        <span id="dark-font" class="dark-mode">Dark Mode</span> 
+        <label class="switch">
+          <input type="checkbox" class="dark-mode__checkbox">
+          <span id="toggle" class="slider"></span>
+        </label>
+      </div>
+  </header>
+
+  <!-- Followers -->
+<section class="followers">
+  <div class="followers__box facebook">
+    <div class="followers__list">
+      <div class="flex-wrapper">
+        <img src="images/icon-facebook.svg" class="social-icon">
+        <span id="dark-font" class="followers__item name">@nathanf</span>
+      </div>
+      <span id="dark-font" class="followers__item number">1987</span>
+      <span class="followers__item description">followers</span>
+      <div class="flex-wrapper">
+        <img src="images/icon-up.svg" class="up-down-icon">
+        <span class="followers__item info">12 today</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="followers__box twitter">
+    <div class="followers__list">
+      <div class="flex-wrapper">
+        <img src="images/icon-twitter.svg" class="social-icon">
+        <span id="dark-font" class="followers__item name">@nathanf</span>
+      </div>
+      <span id="dark-font" class="followers__item number">1044</span>
+      <span class="followers__item description">followers</span>
+      <div class="flex-wrapper">
+        <img src="images/icon-up.svg" class="up-down-icon">
+        <span class="followers__item info">99 today</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="followers__box instagram">
+    <div class="followers__list">
+      <div class="flex-wrapper">
+        <img src="images/icon-instagram.svg" class="social-icon">
+        <span id="dark-font" class="followers__item name">@realnathanf</span>
+      </div>
+      <span id="dark-font" class="followers__item number">11k</span>
+      <span class="followers__item description">followers</span>
+      <div class="flex-wrapper">
+        <img src="images/icon-up.svg" class="up-down-icon">
+        <span class="followers__item info">1099 today</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="followers__box youtube">
+    <div class="followers__list">
+      <div class="flex-wrapper">
+        <img src="images/icon-youtube.svg" class="social-icon">
+        <span id="dark-font" class="followers__item name">Nathan F.</span>
+      </div>
+      <span id="dark-font" class="followers__item number">8239</span>
+      <span class="followers__item description">subscribers</span>
+      <div class="flex-wrapper">
+        <img src="images/icon-down.svg" class="up-down-icon">
+        <span class="followers__item info">144 today</span>
+      </div>
+    </div>
+  </div>
+  
+
+  
+</section>
+<!-- End of followers -->
+<!--Overview page-->
+<h2 id="dark-font" class="overview-page__title">Overview - Today</h2>
+<section class="overview-page">
+  <div class="overview__card">
+    <div class="card--up">
+      <span class="card__info">Page Views</span>
+      <img src="images/icon-facebook.svg" class="social-icon card__icon">
+    </div>
+    <div class="card--down">
+      <span id="dark-font" class="count">87</span>
+      <span class="percentage"><img src="images/icon-up.svg" class="up-down-icon">3%</span>
+    </div>
+  </div>
+
+  <div class="overview__card">
+    <div class="card--up">
+      <span class="card__info">Likes</span>
+      <img src="images/icon-facebook.svg" class="social-icon card__icon">
+    </div>
+    <div class="card--down">
+      <span id="dark-font" class="count">52</span>
+      <span class="percentage"><img src="images/icon-down.svg" class="up-down-icon">2%</span>
+    </div>
+  </div>
+
+  <div class="overview__card">
+    <div class="card--up">
+      <span class="card__info">Likes</span>
+      <img src="images/icon-instagram.svg" class="social-icon card__icon">
+    </div>
+    <div class="card--down">
+      <span id="dark-font" class="count">5462</span>
+      <span class="percentage"><img src="images/icon-up.svg" class="up-down-icon">2257%</span>
+    </div>
+  </div>
+
+  <div class="overview__card">
+    <div class="card--up">
+      <span class="card__info">Profile Views</span>
+      <img src="images/icon-instagram.svg" class="social-icon card__icon">
+    </div>
+    <div class="card--down">
+      <span id="dark-font" class="count">52k</span>
+      <span class="percentage"><img src="images/icon-up.svg" class="up-down-icon">1375%</span>
+    </div>
+  </div>
+
+  <div class="overview__card">
+    <div class="card--up">
+      <span class="card__info">Retweets</span>
+      <img src="images/icon-twitter.svg" class="social-icon card__icon">
+    </div>
+    <div class="card--down">
+      <span id="dark-font" class="count">87</span>
+      <span class="percentage"><img src="images/icon-up.svg" class="up-down-icon">3%</span>
+    </div>
+  </div>
+
+  <div class="overview__card">
+    <div class="card--up">
+      <span class="card__info">Page Views</span>
+      <img src="images/icon-twitter.svg" class="social-icon card__icon">
+    </div>
+    <div class="card--down">
+      <span id="dark-font" class="count">87</span>
+      <span class="percentage"><img src="images/icon-up.svg" class="up-down-icon">303%</span>
+    </div>
+  </div>
+
+  <div class="overview__card">
+    <div class="card--up">
+      <span class="card__info">Page Views</span>
+      <img src="images/icon-youtube.svg" class="social-icon card__icon">
+    </div>
+    <div class="card--down">
+      <span id="dark-font" class="count">87</span>
+      <span class="percentage"><img src="images/icon-down.svg" class="up-down-icon">19%</span>
+    </div>
+  </div>
+
+  <div class="overview__card">
+    <div class="card--up">
+      <span class="card__info">Page Views</span>
+      <img src="images/icon-youtube.svg" class="social-icon card__icon">
+    </div>
+    <div class="card--down">
+      <span id="dark-font" class="count">87</span>
+      <span class="percentage"><img src="images/icon-down.svg" class="up-down-icon">12%</span>
+    </div>
+  </div>
+</section>
+  
+ 
+</section>
+<!-- End of social media -->
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  
+</body>
+<script src="app.js">
+  
+</script>
+</html>
